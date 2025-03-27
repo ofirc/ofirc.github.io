@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img src="/assets/images/ofir-profile-circular.png" alt="Ofir Cohen" class="profile-img" style="float: right; margin-left: 20px; margin-bottom: 20px; max-width: 200px; border-radius: 50%;">
+
 As the CTO of Container Security at [Wiz](https://www.wiz.io), I am focused on solving Kubernetes and container security challenges at scale, working with the largest and most strategic customers of Wiz.
 
 I am passionate about Go programming, Kubernetes Security, Human and Workload Identities in Kubernetes and the Cloud, Kubernetes Networking (from CNIs, through Service Meshes to low-level iptables and primitives), Observability, Cloud Native Architecture and Development, DevOps and other cool technologies. I'm also about always keeping a growth mindset and maintaining a learning and courses streak.
