@@ -1,0 +1,156 @@
+---
+---
+
+@import "minima";
+
+// Custom styles
+
+// General styles
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+    color: #044289;
+  }
+}
+
+// Header styles
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+}
+
+.site-title {
+  font-weight: 600;
+}
+
+// Footer styles
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 1;
+  padding: 0 15px;
+  min-width: 200px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #828282;
+}
+
+.site-links ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+// Post styles
+.post-title {
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  color: #828282;
+  font-size: 0.9rem;
+}
+
+.post-content {
+  margin-bottom: 30px;
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  pre, code {
+    border-radius: 3px;
+  }
+}
+
+// Table of contents
+#table-of-contents {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+// Tags and categories pages
+.tag-cloud, .category-cloud {
+  text-align: center;
+  margin-bottom: 2rem;
+  
+  a {
+    display: inline-block;
+    margin: 0.3rem;
+    padding: 0.2rem 0.5rem;
+    background-color: #f1f8ff;
+    border-radius: 3px;
+    
+    &:hover {
+      background-color: #ddeeff;
+      text-decoration: none;
+    }
+  }
+}
+
+.tag-section, .category-section {
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+// Responsive styles
+@media screen and (max-width: 600px) {
+  .footer-col {
+    flex: 100%;
+    margin-bottom: 20px;
+  }
+}
